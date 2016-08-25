@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>插件名</name>
+<version>版本</version>
+<link>连接地址</link>
+<author>作者</author>
+<code>编码</code>
+    <file path="catalog/controller/common/header.php">
+        <operation>
+      <search><![CDATA[
+ public function index() {
+ ]]></search>
+ <add position="after"><![CDATA[
+ echo "1";
+ ]]></add>
+ </operation>
+ </file>
+</modification>
+
